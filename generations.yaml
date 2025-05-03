@@ -1,0 +1,15 @@
+generations:
+  - name: "First Generation (as an independent model)"
+    start_year: 2002
+    end_year: 2009
+    description: "The original Chevrolet TrailBlazer (with capital 'B') evolved from being a trim package of the Blazer to becoming its own model line as a mid-size SUV. Built on GM's GMT360 platform with body-on-frame construction, it offered significant off-road capability and towing capacity. Standard power came from an inline-six engine producing 275 HP, with optional V8 engines including the high-performance 395 HP LS2 V8 in the SS variant. Available in standard and extended-length EXT models (the latter offering three rows of seating), it competed with vehicles like the Ford Explorer and Jeep Grand Cherokee. The interior was functional but somewhat utilitarian compared to later crossovers. This generation represented the traditional truck-based SUV approach before the market shifted toward more car-like crossovers."
+
+  - name: "International Markets Continuation"
+    start_year: 2012
+    end_year: 2019
+    description: "While discontinued in North America after 2009, the TrailBlazer name continued in many international markets on a different vehicle based on the global Colorado pickup truck platform. This version maintained the traditional body-on-frame construction and was positioned as a rugged, capable SUV for markets where off-road performance and durability were prioritized over on-road refinement. Available primarily with diesel engines in most markets, it offered three rows of seating and significant ground clearance. This version was never sold in North America but was an important model for Chevrolet in regions such as Southeast Asia, Australia, South America, and parts of Africa."
+
+  - name: "Current Generation (as Trailblazer)"
+    start_year: 2021
+    end_year: null
+    description: "The current Trailblazer (with lowercase 'b') represents a complete reimagining of the nameplate as a subcompact crossover SUV, significantly smaller than its predecessors. Built on GM's VSS-F platform with unibody construction, it features a front-wheel drive-based architecture with available all-wheel drive. Powertrain options include a 1.2L turbocharged three-cylinder engine with 137 HP or a 1.3L turbocharged three-cylinder producing 155 HP, paired with either a CVT or nine-speed automatic transmission depending on configuration. The exterior design features bold styling with available two-tone roof options and distinctive trim packages including the off-road-inspired ACTIV and sporty RS. The interior offers modern technology including a standard 7-inch (optional 8-inch) touchscreen with wireless Apple CarPlay and Android Auto compatibility. This generation positions the Trailblazer as a stylish, technology-focused small crossover targeting younger buyers, representing the dramatic shift in market preferences from the rugged, truck-based SUVs that previously carried the name."
