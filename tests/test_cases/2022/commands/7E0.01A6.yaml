@@ -8,3 +8,24 @@ test_cases:
 - response: 7E80641A60008DECE
   expected_values:
     ODO: 58132.6
+- response: 7E80641A60008DECF
+  expected_values:
+    ODO: 58132.7
+- response: 7E80641A60008DED0
+  expected_values:
+    ODO: 58132.8
+- response: 7E80641A60008DED4
+  expected_values:
+    ODO: 58133.2
+- response: 7E80641A60008DEDE
+  expected_values:
+    ODO: 58134.2
+- response: 7E80641A60008DEE8
+  expected_values:
+    ODO: 58135.2
+- response: 7E80641A60008DEF2
+  expected_values:
+    ODO: 58136.2
+- response: 7E80641A60008DEFA
+  expected_values:
+    ODO: 58137
