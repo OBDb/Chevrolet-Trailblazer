@@ -1,0 +1,107 @@
+command_id: 7E0.0142
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E80441420000'
+  expected_values:
+    VPWR: 0
+- response: |-
+    7E80441420000
+    7EA0441420000
+    7ED044142321C
+  expected_values:
+    VPWR: 12.828
+- response: |-
+    7E8044142300E
+    7ED044142304B
+    7EA0441422FFA
+  expected_values:
+    VPWR: 12.282
+- response: |-
+    7E80441423085
+    7E80641A6000786D3
+  expected_values:
+    VPWR: 12.421
+- response: |-
+    7E80441423085
+    7EA044142306F
+    7ED04414230B0
+  expected_values:
+    VPWR: 12.464
+- response: |-
+    7E804414234F2
+    7ED0441423558
+    7EA0441423503
+  expected_values:
+    VPWR: 13.571
+- response: |-
+    7E804414235FC
+    7E80441312401
+  expected_values:
+    VPWR: 13.82
+- response: |-
+    7E804414235FE
+    7ED0441423642
+    7EA04414235F5
+  expected_values:
+    VPWR: 13.813
+- response: |-
+    7E80441423632
+    7E803412FB2
+  expected_values:
+    VPWR: 13.874
+- response: |-
+    7E804414238FC
+    7EA04414238DC
+    7ED044142390D
+  expected_values:
+    VPWR: 14.605
+- response: 7E804414238FF
+  expected_values:
+    VPWR: 14.591
+- response: '7E80441423901'
+  expected_values:
+    VPWR: 14.593
+- response: |-
+    7E8044142391C
+    7ED0441423940
+    7EA04414238F4
+  expected_values:
+    VPWR: 14.58
+- response: |-
+    7E804414239CB
+    7ED0441423A26
+    7EA04414239C1
+  expected_values:
+    VPWR: 14.785
+- response: |-
+    7EA0441423095
+    7ED04414230D4
+    7E80441423095
+  expected_values:
+    VPWR: 12.437
+- response: |-
+    7EA044142328E
+    7E804414232A9
+    7ED04414232D3
+  expected_values:
+    VPWR: 13.011
+- response: |-
+    7EA0441423796
+    7E80441423788
+    7ED04414237FF
+  expected_values:
+    VPWR: 14.335
+- response: |-
+    7ED0441423062
+    7E80441423027
+    7EA0441423015
+  expected_values:
+    VPWR: 12.309
+- response: |-
+    7ED0441423652
+    7E8044142360D
+    7EA04414235F9
+    7E80641A6000780D2
+  expected_values:
+    VPWR: 13.817
