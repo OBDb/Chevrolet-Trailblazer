@@ -18,6 +18,11 @@ test_cases:
   expected_values:
     VPWR: 12.282
 - response: |-
+    7E80441423076
+    7E80641A60007A65E
+  expected_values:
+    VPWR: 12.406
+- response: |-
     7E80441423085
     7E80641A6000786D3
   expected_values:
@@ -28,6 +33,11 @@ test_cases:
     7ED04414230B0
   expected_values:
     VPWR: 12.464
+- response: |-
+    7E804414230E7
+    7E80641A60007A66E
+  expected_values:
+    VPWR: 12.519
 - response: |-
     7E804414234F2
     7ED0441423558
@@ -63,11 +73,11 @@ test_cases:
   expected_values:
     VPWR: 14.593
 - response: |-
-    7E8044142391C
-    7ED0441423940
-    7EA04414238F4
+    7E80441423901
+    7ED0441423921
+    7EA04414238D8
   expected_values:
-    VPWR: 14.58
+    VPWR: 14.552
 - response: |-
     7E804414239CB
     7ED0441423A26

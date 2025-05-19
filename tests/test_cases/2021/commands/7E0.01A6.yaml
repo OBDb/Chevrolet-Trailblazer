@@ -23,9 +23,6 @@ test_cases:
     7E8044131248F
   expected_values:
     ODO: 49185.5
-- response: 7E80641A600079001
-  expected_values:
-    ODO: 49561.7
 - response: |-
     7E80641A60007997F
     7E803412FE3
@@ -41,12 +38,25 @@ test_cases:
     7E80441312750
   expected_values:
     ODO: 49890.8
-- response: 7E80641A600079E88
-  expected_values:
-    ODO: 49933.6
 - response: |-
     7E80641A600079E8B
     7EA0462000D00
     7E80462000D00
   expected_values:
     ODO: 49933.9
+- response: 7E80641A60007A800
+  expected_values:
+    ODO: 50176
+- response: |-
+    7E80641A60007AEA9
+    7E80441422FF1
+  expected_values:
+    ODO: 50346.5
+- response: |-
+    7E80641A60007AED0
+    7E804410C1518
+  expected_values:
+    ODO: 50350.4
+- response: 7E80641A60007B005
+  expected_values:
+    ODO: 50381.3
