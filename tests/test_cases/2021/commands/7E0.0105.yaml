@@ -6,13 +6,23 @@ test_cases:
   expected_values:
     ECT: 38
 - response: |-
+    7E803410583
+    7E80341463F
+  expected_values:
+    ECT: 91
+- response: |-
+    7E803410584
+    7E803414643
+  expected_values:
+    ECT: 92
+- response: |-
     7E803410585
-    7E80341463B
+    7E803414642
   expected_values:
     ECT: 93
 - response: |-
     7E803410585
-    7E80341463C
+    7E80641A60007A806
   expected_values:
     ECT: 93
 - response: |-
@@ -20,6 +30,11 @@ test_cases:
     7E80341463A
   expected_values:
     ECT: 94
+- response: |-
+    7E803410588
+    7E8056211A1077F
+  expected_values:
+    ECT: 96
 - response: '7E803410589'
   expected_values:
     ECT: 97
