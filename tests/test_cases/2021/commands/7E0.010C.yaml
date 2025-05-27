@@ -1,10 +1,28 @@
 command_id: 7E0.010C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E804410C0C15
+- response: |-
+    7E803410584
+    7E804410C1AA0
   expected_values:
-    RPM: 773.25
+    RPM: 1704
+- response: |-
+    7E803412F84
+    7E804410C1BEA
+  expected_values:
+    RPM: 1786.5
+- response: |-
+    7E803412FD6
+    7E804410C2C24
+  expected_values:
+    RPM: 2825
+- response: |-
+    7E803414633
+    7E804410C3A97
+  expected_values:
+    RPM: 3749.75
+- response: 7E804410C0BDF
+  expected_values:
+    RPM: 759.75
 - response: |-
     7E804410C0D0D
     7E80641A600079CDC
@@ -15,22 +33,32 @@ test_cases:
     7E80341463A
   expected_values:
     RPM: 847.5
+- response: |-
+    7E804410C11C3
+    7E803412FCA
+  expected_values:
+    RPM: 1136.75
+- response: |-
+    7E804410C11FA
+    7E803412FA6
+  expected_values:
+    RPM: 1150.5
+- response: 7E804410C1200
+  expected_values:
+    RPM: 1152
 - response: 7E804410C13FF
   expected_values:
     RPM: 1279.75
-- response: 7E804410C1500
-  expected_values:
-    RPM: 1344
 - response: |-
-    7E804410C196A
-    7E803410584
+    7E804410C18E4
+    7E80641A60007D65F
   expected_values:
-    RPM: 1626.5
+    RPM: 1593
 - response: |-
-    7E804410C1C3F
-    7E803414640
+    7E804410C18F3
+    7E803410583
   expected_values:
-    RPM: 1807.75
+    RPM: 1596.75
 - response: |-
     7E804410C1CA5
     7E80641A60007AEB4
@@ -54,10 +82,20 @@ test_cases:
   expected_values:
     RPM: 2662
 - response: |-
-    7E804410C2DB8
-    7E80441312485
+    7E804410C3E7D
+    7E80441312BC2
   expected_values:
-    RPM: 2926
+    RPM: 3999.25
 - response: 7E804410C5529
   expected_values:
     RPM: 5450.25
+- response: |-
+    7E804413C2062
+    7E804410C1AC9
+  expected_values:
+    RPM: 1714.25
+- response: |-
+    7E80641A60007AED0
+    7E804410C1518
+  expected_values:
+    RPM: 1350
