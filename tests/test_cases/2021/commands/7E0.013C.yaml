@@ -1,7 +1,15 @@
 command_id: 7E0.013C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
+- response: |-
+    7E803410587
+    7E804413C2378
+  expected_values:
+    CATEMP11: 868
+- response: |-
+    7E80341463B
+    7E804413C1F72
+  expected_values:
+    CATEMP11: 765
 - response: 7E804413C0F96
   expected_values:
     CATEMP11: 359
@@ -13,9 +21,24 @@ test_cases:
     7E803410584
   expected_values:
     CATEMP11: 786
+- response: |-
+    7E804413C2062
+    7E804410C1AC9
+  expected_values:
+    CATEMP11: 789
+- response: |-
+    7E804413C2300
+    7E80641A60007E08B
+  expected_values:
+    CATEMP11: 856
+- response: |-
+    7E804413C231E
+    7E80441423256
+  expected_values:
+    CATEMP11: 859
 - response: 7E804413C24FE
   expected_values:
     CATEMP11: 907
-- response: 7E804413C253A
+- response: 7E804413C2512
   expected_values:
-    CATEMP11: 913
+    CATEMP11: 909
