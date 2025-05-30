@@ -43,6 +43,11 @@ test_cases:
     7E804413C2378
   expected_values:
     ECT: 95
+- response: |-
+    7E803410588
+    7E8056211A1077F
+  expected_values:
+    ECT: 96
 - response: '7E803410589'
   expected_values:
     ECT: 97
