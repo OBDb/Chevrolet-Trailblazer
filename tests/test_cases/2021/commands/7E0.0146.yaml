@@ -6,10 +6,20 @@ test_cases:
   expected_values:
     AAT: 23
 - response: |-
+    7E803410584
+    7E803414643
+  expected_values:
+    AAT: 27
+- response: |-
     7E803410585
     7E803414642
   expected_values:
     AAT: 26
+- response: |-
+    7E803412F4F
+    7E80341463F
+  expected_values:
+    AAT: 23
 - response: |-
     7E803412FB5
     7E80341463A
@@ -18,36 +28,6 @@ test_cases:
 - response: '7E803414633'
   expected_values:
     AAT: 11
-- response: |-
-    7E803414633
-    7E804410C3A97
-  expected_values:
-    AAT: 11
-- response: |-
-    7E803414635
-    7E803410583
-  expected_values:
-    AAT: 13
-- response: |-
-    7E80341463B
-    7E804413C1F72
-  expected_values:
-    AAT: 19
-- response: |-
-    7E80341463E
-    7E804413129E2
-  expected_values:
-    AAT: 22
-- response: |-
-    7E803414640
-    7E803412F78
-  expected_values:
-    AAT: 24
-- response: |-
-    7E803414640
-    7E80441312842
-  expected_values:
-    AAT: 24
 - response: 7E80341464A
   expected_values:
     AAT: 34
