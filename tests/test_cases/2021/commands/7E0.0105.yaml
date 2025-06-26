@@ -1,43 +1,92 @@
 command_id: 7E0.0105
 test_cases:
-- response: '7E803410544'
-  expected_values:
-    ECT: 28
-- response: '7E803410589'
-  expected_values:
-    ECT: 97
-- response: |-
+- expected_values:
+    ECT: 22
+  response: 7E80341053E
+- expected_values:
+    ECT: 99
+  response: 7E80341058B
+- expected_values:
+    ECT: 94
+  response: |-
+    7E803410D77
+    7E803410586
+- expected_values:
+    ECT: 91
+  response: |-
+    7E803412F77
+    7E803410583
+- expected_values:
+    ECT: 94
+  response: |-
+    7E803412FD4
+    7E803410586
+- expected_values:
+    ECT: 91
+  response: |-
     7E803414635
     7E803410583
-  expected_values:
+- expected_values:
+    ECT: 69
+  response: |-
+    7E803414643
+    7E80341056D
+- expected_values:
+    ECT: 90
+  response: |-
+    7E804410C0E05
+    7E803410582
+- expected_values:
     ECT: 91
-- response: |-
-    7E80341463D
-    7E803410583
-  expected_values:
-    ECT: 91
-- response: |-
+  response: |-
     7E804410C18F3
     7E803410583
-  expected_values:
-    ECT: 91
-- response: |-
-    7E804410C1BD0
-    7E803410585
-  expected_values:
-    ECT: 93
-- response: |-
-    7E804413C2044
-    7E803410584
-  expected_values:
+- expected_values:
+    ECT: 94
+  response: |-
+    7E804410C1B3C
+    7E803410586
+- expected_values:
     ECT: 92
-- response: |-
+  response: |-
+    7E8044131322A
+    7E803410584
+- expected_values:
+    ECT: 94
+  response: |-
+    7E8044142317D
+    7E803410586
+- expected_values:
+    ECT: 93
+  response: |-
+    7E80441423543
+    7ED044142356B
+    7EA044142351C
+    7E803410585
+- expected_values:
+    ECT: 93
+  response: |-
+    7E80462000D00
+    7E803410585
+- expected_values:
+    ECT: 94
+  response: |-
     7E80641A60007BF02
     7E803410586
-  expected_values:
-    ECT: 94
-- response: |-
+- expected_values:
+    ECT: 92
+  response: |-
     7E80641A60007DDF0
     7E803410584
-  expected_values:
-    ECT: 92
+- expected_values:
+    ECT: 93
+  response: |-
+    7E80641A600081AA8
+    7E803410585
+- expected_values:
+    ECT: 95
+  response: |-
+    7EA0441423568
+    7ED044142359E
+    7E80441423579
+    7E803410587

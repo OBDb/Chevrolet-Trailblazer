@@ -1,69 +1,107 @@
 command_id: 7E0.0131
 test_cases:
-- response: |-
+- expected_values:
+    CLR_DIST: 15354
+  response: |-
+    7E803410583
+    7E80441313BFA
+- expected_values:
+    CLR_DIST: 10723
+  response: |-
     7E803410584
     7E804413129E3
-  expected_values:
-    CLR_DIST: 10723
-- response: |-
+- expected_values:
+    CLR_DIST: 16762
+  response: |-
+    7E803410584
+    7E8044131417A
+- expected_values:
+    CLR_DIST: 14030
+  response: |-
+    7E803410586
+    7E804413136CE
+- expected_values:
+    CLR_DIST: 17093
+  response: |-
+    7E803412F35
+    7E804413142C5
+- expected_values:
+    CLR_DIST: 9940
+  response: |-
     7E803412FE7
     7E804413126D4
-  expected_values:
-    CLR_DIST: 9940
-- response: |-
+- expected_values:
+    CLR_DIST: 10722
+  response: |-
     7E80341463E
     7E804413129E2
-  expected_values:
-    CLR_DIST: 10722
-- response: |-
+- expected_values:
+    CLR_DIST: 13488
+  response: |-
+    7E803414640
+    7E804413134B0
+- expected_values:
+    CLR_DIST: 12638
+  response: |-
     7E804410C17B3
     7E8044131315E
-  expected_values:
-    CLR_DIST: 12638
-- response: |-
+- expected_values:
+    CLR_DIST: 17510
+  response: |-
+    7E804410C2177
+    7E80441314466
+- expected_values:
+    CLR_DIST: 10462
+  response: |-
     7E804410C2998
     7E804413128DE
-  expected_values:
-    CLR_DIST: 10462
-- response: |-
+- expected_values:
+    CLR_DIST: 11202
+  response: |-
     7E804410C3E7D
     7E80441312BC2
-  expected_values:
-    CLR_DIST: 11202
-- response: '7E80441312387'
-  expected_values:
+- expected_values:
     CLR_DIST: 9095
-- response: 7E804413123FF
-  expected_values:
+  response: '7E80441312387'
+- expected_values:
     CLR_DIST: 9215
-- response: '7E80441312400'
-  expected_values:
+  response: 7E804413123FF
+- expected_values:
     CLR_DIST: 9216
-- response: '7E80441313139'
-  expected_values:
-    CLR_DIST: 12601
-- response: |-
+  response: '7E80441312400'
+- expected_values:
+    CLR_DIST: 14397
+  response: 7E8044131383D
+- expected_values:
+    CLR_DIST: 17675
+  response: 7E8044131450B
+- expected_values:
+    CLR_DIST: 9217
+  response: |-
     7E804414235FC
     7E80441312401
-  expected_values:
-    CLR_DIST: 9217
-- response: |-
+- expected_values:
+    CLR_DIST: 15369
+  response: |-
+    7E80462000D00
+    7E80441313C09
+- expected_values:
+    CLR_DIST: 9123
+  response: |-
     7E80641A600077820
     7E804413123A3
-  expected_values:
-    CLR_DIST: 9123
-- response: |-
+- expected_values:
+    CLR_DIST: 9359
+  response: |-
     7E80641A60007814F
     7E8044131248F
-  expected_values:
-    CLR_DIST: 9359
-- response: |-
+- expected_values:
+    CLR_DIST: 10064
+  response: |-
     7E80641A600079CDC
     7E80441312750
-  expected_values:
-    CLR_DIST: 10064
-- response: |-
+- expected_values:
+    CLR_DIST: 11544
+  response: |-
     7E80641A60007D6A7
     7E80441312D18
-  expected_values:
-    CLR_DIST: 11544

@@ -1,41 +1,86 @@
 command_id: 7E0.2211A1
 test_cases:
-- response: |-
+- expected_values:
+    CHEVROLET_RUNTM: 478
+  response: |-
+    7E803410574
+    7E8056211A101DE
+- expected_values:
+    CHEVROLET_RUNTM: 1919
+  response: |-
     7E803410588
     7E8056211A1077F
-  expected_values:
-    CHEVROLET_RUNTM: 1919
-- response: |-
+- expected_values:
+    CHEVROLET_RUNTM: 0
+  response: |-
+    7E803412F6C
+    7E8056211A10000
+- expected_values:
+    CHEVROLET_RUNTM: 585
+  response: |-
+    7E803412FA9
+    7E8056211A10249
+- expected_values:
+    CHEVROLET_RUNTM: 633
+  response: |-
+    7E804410C0E70
+    7E8056211A10279
+- expected_values:
+    CHEVROLET_RUNTM: 287
+  response: |-
     7E804410C13B0
     7E8056211A1011F
-  expected_values:
-    CHEVROLET_RUNTM: 287
-- response: |-
+- expected_values:
+    CHEVROLET_RUNTM: 814
+  response: |-
     7E804410C19E7
     7E8056211A1032E
-  expected_values:
-    CHEVROLET_RUNTM: 814
-- response: |-
-    7E804410C1BBE
-    7E8056211A102C3
-  expected_values:
-    CHEVROLET_RUNTM: 707
-- response: |-
+- expected_values:
+    CHEVROLET_RUNTM: 3218
+  response: |-
+    7E804410C1AE7
+    7E8056211A10C92
+- expected_values:
+    CHEVROLET_RUNTM: 494
+  response: |-
     7E804410C1C98
     7E8056211A101EE
-  expected_values:
-    CHEVROLET_RUNTM: 494
-- response: 7E8056211A10000
-  expected_values:
+- expected_values:
+    CHEVROLET_RUNTM: 1357
+  response: |-
+    7E804413C182E
+    7E8056211A1054D
+- expected_values:
+    CHEVROLET_RUNTM: 1016
+  response: |-
+    7E80462000D0B
+    7E8056211A103F8
+- expected_values:
     CHEVROLET_RUNTM: 0
-- response: 7E8056211A100FF
-  expected_values:
+  response: 7E8056211A10000
+- expected_values:
     CHEVROLET_RUNTM: 255
-- response: 7E8056211A11503
-  expected_values:
-    CHEVROLET_RUNTM: 5379
-- response: |-
+  response: 7E8056211A100FF
+- expected_values:
+    CHEVROLET_RUNTM: 18188
+  response: 7E8056211A1470C
+- expected_values:
+    CHEVROLET_RUNTM: 470
+  response: |-
     7E80641A60007FC28
     7E8056211A101D6
-  expected_values:
-    CHEVROLET_RUNTM: 470
+- expected_values:
+    CHEVROLET_RUNTM: 1278
+  response: |-
+    7E80641A600081AB8
+    7E8056211A104FE
+- expected_values:
+    CHEVROLET_RUNTM: 300
+  response: |-
+    7E80641A60008AF1F
+    7E8056211A1012C
+- expected_values:
+    CHEVROLET_RUNTM: 2539
+  response: |-
+    7E80641A60008B000
+    7E8056211A109EB
