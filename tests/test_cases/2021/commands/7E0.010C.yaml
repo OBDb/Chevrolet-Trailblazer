@@ -1,41 +1,84 @@
 command_id: 7E0.010C
 test_cases:
-- response: |-
+- expected_values:
+    RPM: 2454.75
+  response: |-
+    7E80341057A
+    7E804410C265B
+- expected_values:
+    RPM: 898.25
+  response: |-
+    7E803410583
+    7E804410C0E09
+- expected_values:
+    RPM: 1704
+  response: |-
     7E803410584
     7E804410C1AA0
-  expected_values:
-    RPM: 1704
-- response: |-
-    7E803412F84
-    7E804410C1BEA
-  expected_values:
-    RPM: 1786.5
-- response: |-
+- expected_values:
+    RPM: 2033
+  response: |-
+    7E803410584
+    7E804410C1FC4
+- expected_values:
+    RPM: 1515.5
+  response: |-
+    7E803410585
+    7E804410C17AE
+- expected_values:
+    RPM: 2825
+  response: |-
     7E803412FD6
     7E804410C2C24
-  expected_values:
-    RPM: 2825
-- response: |-
+- expected_values:
+    RPM: 3749.75
+  response: |-
     7E803414633
     7E804410C3A97
-  expected_values:
-    RPM: 3749.75
-- response: 7E804410C0000
-  expected_values:
+- expected_values:
+    RPM: 1248.75
+  response: |-
+    7E80341464A
+    7E804410C1383
+- expected_values:
     RPM: 0
-- response: 7E804410C13FF
-  expected_values:
-    RPM: 1279.75
-- response: 7E804410C5605
-  expected_values:
+  response: 7E804410C0000
+- expected_values:
+    RPM: 895.75
+  response: 7E804410C0DFF
+- expected_values:
+    RPM: 4003.75
+  response: 7E804410C3E8F
+- expected_values:
     RPM: 5505.25
-- response: |-
+  response: 7E804410C5605
+- expected_values:
+    RPM: 891
+  response: |-
+    7E80441313436
+    7E804410C0DEC
+- expected_values:
+    RPM: 1509
+  response: |-
+    7E804413135BE
+    7E804410C1794
+- expected_values:
+    RPM: 785.5
+  response: |-
+    7E80441313AD7
+    7E804410C0C46
+- expected_values:
+    RPM: 1714.25
+  response: |-
     7E804413C2062
     7E804410C1AC9
-  expected_values:
-    RPM: 1714.25
-- response: |-
+- expected_values:
+    RPM: 1350
+  response: |-
     7E80641A60007AED0
     7E804410C1518
-  expected_values:
-    RPM: 1350
+- expected_values:
+    RPM: 2572.5
+  response: |-
+    7E80641A600086B9A
+    7E804410C2832

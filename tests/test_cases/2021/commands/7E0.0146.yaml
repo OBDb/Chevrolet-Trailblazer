@@ -1,58 +1,83 @@
 command_id: 7E0.0146
 test_cases:
-- response: |-
+- expected_values:
+    AAT: 27
+  response: |-
+    7E80341057E
+    7E803414643
+- expected_values:
+    AAT: 23
+  response: |-
     7E803410583
     7E80341463F
-  expected_values:
+- expected_values:
+    AAT: 24
+  response: |-
+    7E803410586
+    7E803414640
+- expected_values:
     AAT: 23
-- response: |-
-    7E803410584
-    7E803414643
-  expected_values:
-    AAT: 27
-- response: |-
-    7E803410585
-    7E803414642
-  expected_values:
-    AAT: 26
-- response: |-
+  response: |-
     7E803412F4F
     7E80341463F
-  expected_values:
-    AAT: 23
-- response: |-
+- expected_values:
+    AAT: 22
+  response: |-
     7E803412FB9
     7E80341463E
-  expected_values:
-    AAT: 22
-- response: '7E803414633'
-  expected_values:
-    AAT: 11
-- response: 7E80341464A
-  expected_values:
-    AAT: 34
-- response: |-
+- expected_values:
+    AAT: 10
+  response: '7E803414632'
+- expected_values:
+    AAT: 43
+  response: '7E803414653'
+- expected_values:
+    AAT: 18
+  response: |-
     7E804410C0D3E
     7E80341463A
-  expected_values:
-    AAT: 18
-- response: |-
+- expected_values:
+    AAT: 37
+  response: |-
+    7E804410C1592
+    7E80341464D
+- expected_values:
+    AAT: 22
+  response: |-
     7E804410C1AD2
     7E80341463E
-  expected_values:
-    AAT: 22
-- response: |-
+- expected_values:
+    AAT: 24
+  response: |-
     7E804410C1C3F
     7E803414640
-  expected_values:
-    AAT: 24
-- response: |-
+- expected_values:
+    AAT: 21
+  response: |-
+    7E804410C2302
+    7E80341463D
+- expected_values:
+    AAT: 29
+  response: |-
+    7E80441314403
+    7E803414645
+- expected_values:
+    AAT: 36
+  response: |-
+    7E804414230C7
+    7E80341464C
+- expected_values:
+    AAT: 23
+  response: |-
     7E804414231A2
     7E80341463F
-  expected_values:
-    AAT: 23
-- response: |-
+- expected_values:
+    AAT: 25
+  response: |-
     7E80641A60007FB7C
     7E803414641
-  expected_values:
-    AAT: 25
+- expected_values:
+    AAT: 36
+  response: |-
+    7E80641A600083D52
+    7E80341464C

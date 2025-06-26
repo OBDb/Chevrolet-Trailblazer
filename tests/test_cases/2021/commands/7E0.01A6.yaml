@@ -1,86 +1,96 @@
 command_id: 7E0.01A6
 test_cases:
-- response: |-
+- expected_values:
+    ODO: 50828.4
+  response: |-
     7E803410567
     7E80641A60007C17C
-  expected_values:
-    ODO: 50828.4
-- response: |-
-    7E80341057E
-    7E80641A60007CA54
-  expected_values:
-    ODO: 51054.8
-- response: |-
+- expected_values:
+    ODO: 57331.1
+  response: |-
     7E803410584
-    7E80641A60007D757
-  expected_values:
-    ODO: 51387.9
-- response: |-
+    7E80641A60008BF7F
+- expected_values:
+    ODO: 50176.6
+  response: |-
     7E803410585
     7E80641A60007A806
-  expected_values:
-    ODO: 50176.6
-- response: |-
+- expected_values:
+    ODO: 54201.9
+  response: |-
+    7E803412FE7
+    7E80641A600084543
+- expected_values:
+    ODO: 52558.5
+  response: |-
+    7E803414638
+    7E80641A600080511
+- expected_values:
+    ODO: 49890.8
+  response: |-
     7E804410C0D0D
     7E80641A600079CDC
-  expected_values:
-    ODO: 49890.8
-- response: |-
+- expected_values:
+    ODO: 51363.1
+  response: |-
     7E804410C18E4
     7E80641A60007D65F
-  expected_values:
-    ODO: 51363.1
-- response: |-
-    7E804410C1CA5
-    7E80641A60007AEB4
-  expected_values:
-    ODO: 50347.6
-- response: |-
+- expected_values:
+    ODO: 55698
+  response: |-
+    7E804410C1CF9
+    7E80641A600087FB4
+- expected_values:
+    ODO: 52985.1
+  response: |-
+    7E804410C38A7
+    7E80641A6000815BB
+- expected_values:
+    ODO: 51623.5
+  response: |-
     7E804413C2300
     7E80641A60007E08B
-  expected_values:
-    ODO: 51623.5
-- response: |-
+- expected_values:
+    ODO: 50134.2
+  response: |-
     7E80441423076
     7E80641A60007A65E
-  expected_values:
-    ODO: 50134.2
-- response: |-
+- expected_values:
+    ODO: 49326.7
+  response: |-
     7E80441423085
     7E80641A6000786D3
-  expected_values:
-    ODO: 49326.7
-- response: |-
-    7E804414230E7
-    7E80641A60007A66E
-  expected_values:
-    ODO: 50135.8
-- response: 7E80641A600077709
-  expected_values:
+- expected_values:
+    ODO: 53052.7
+  response: |-
+    7E80462000D4B
+    7E80641A60008185F
+- expected_values:
     ODO: 48922.5
-- response: 7E80641A6000777FF
-  expected_values:
+  response: 7E80641A600077709
+- expected_values:
     ODO: 48947.1
-- response: 7E80641A60007A800
-  expected_values:
+  response: 7E80641A6000777FF
+- expected_values:
     ODO: 50176
-- response: 7E80641A60007FB36
-  expected_values:
+  response: 7E80641A60007A800
+- expected_values:
     ODO: 52306.2
-- response: 7E80641A60008019F
-  expected_values:
+  response: 7E80641A60007FB36
+- expected_values:
     ODO: 52470.3
-- response: |-
+  response: 7E80641A60008019F
+- expected_values:
+    ODO: 51560.7
+  response: |-
     7ED04414234DB
     7E804414234AE
     7EA044142348F
     7E80641A60007DE17
-  expected_values:
-    ODO: 51560.7
-- response: |-
+- expected_values:
+    ODO: 49173
+  response: |-
     7ED0441423652
     7E8044142360D
     7EA04414235F9
     7E80641A6000780D2
-  expected_values:
-    ODO: 49173
