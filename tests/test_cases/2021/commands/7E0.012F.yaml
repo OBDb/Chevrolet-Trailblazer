@@ -37,10 +37,10 @@ test_cases:
     7E804410C15BF
     7E803412F3F
 - expected_values:
-    FLI: 39.21569
+    FLI: 34.11765
   response: |-
-    7E804410C1AFB
-    7E803412F64
+    7E804410C15FE
+    7E803412F57
 - expected_values:
     FLI: 90.58824
   response: |-
@@ -71,6 +71,11 @@ test_cases:
   response: |-
     7E80641A60008AE6E
     7E803412F42
+- expected_values:
+    FLI: 52.54902
+  response: |-
+    7E80641A60008CABF
+    7E803412F86
 - expected_values:
     FLI: 63.13725
   response: |-

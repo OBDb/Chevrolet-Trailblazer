@@ -57,10 +57,10 @@ test_cases:
     7E804410C2302
     7E80341463D
 - expected_values:
-    AAT: 29
+    AAT: 31
   response: |-
-    7E80441314403
-    7E803414645
+    7E8044131496E
+    7E803414647
 - expected_values:
     AAT: 36
   response: |-
@@ -81,3 +81,8 @@ test_cases:
   response: |-
     7E80641A600083D52
     7E80341464C
+- expected_values:
+    AAT: 30
+  response: |-
+    7E80641A60008D7BD
+    7E803414646

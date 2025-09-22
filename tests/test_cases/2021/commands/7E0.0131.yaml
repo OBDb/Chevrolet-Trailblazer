@@ -6,6 +6,11 @@ test_cases:
     7E803410583
     7E80441313BFA
 - expected_values:
+    CLR_DIST: 18756
+  response: |-
+    7E803410583
+    7E80441314944
+- expected_values:
     CLR_DIST: 10723
   response: |-
     7E803410584
@@ -73,8 +78,8 @@ test_cases:
     CLR_DIST: 14397
   response: 7E8044131383D
 - expected_values:
-    CLR_DIST: 17675
-  response: 7E8044131450B
+    CLR_DIST: 18944
+  response: 7E80441314A00
 - expected_values:
     CLR_DIST: 9217
   response: |-
