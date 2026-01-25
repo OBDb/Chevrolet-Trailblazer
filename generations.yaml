@@ -1,15 +1,29 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_TrailBlazer_(SUV)"
+  - "https://en.wikipedia.org/wiki/Chevrolet_Trailblazer_(crossover)"
+
 generations:
-  - name: "First Generation (as an independent model)"
+  - name: "First Generation (KC; 2002-2005)"
     start_year: 2002
+    end_year: 2005
+    description: "The original Chevrolet TrailBlazer is a mid-size SUV built on GM's GMT360 platform with body-on-frame construction. Standard power came from a 4.2L inline-six engine producing 275 HP, with optional 5.3L and 6.0L V8 engines available. The TrailBlazer offered significant off-road capability and towing capacity, competing with the Ford Explorer and Jeep Grand Cherokee. It was available in standard and extended-length EXT models with three rows of seating. Trim levels included LS, LT, and LTZ. The SS performance variant was not introduced until 2006."
+
+  - name: "First Generation (KC; 2006-2009) - Facelifted"
+    start_year: 2006
     end_year: 2009
-    description: "The original Chevrolet TrailBlazer (with capital 'B') evolved from being a trim package of the Blazer to becoming its own model line as a mid-size SUV. Built on GM's GMT360 platform with body-on-frame construction, it offered significant off-road capability and towing capacity. Standard power came from an inline-six engine producing 275 HP, with optional V8 engines including the high-performance 395 HP LS2 V8 in the SS variant. Available in standard and extended-length EXT models (the latter offering three rows of seating), it competed with vehicles like the Ford Explorer and Jeep Grand Cherokee. The interior was functional but somewhat utilitarian compared to later crossovers. This generation represented the traditional truck-based SUV approach before the market shifted toward more car-like crossovers."
+    description: "The 2006 model year brought a significant refresh with updated front fascias, new interior trim, and the introduction of the high-performance SS variant featuring a 6.0L LS2 V8 producing 395 HP. Side-curtain airbags became standard in 2008. The platform remained GMT360, but cosmetic updates and the new SS performance trim represent a significant visual and performance evolution. The TrailBlazer EXT production ended in 2006."
 
-  - name: "International Markets Continuation"
+  - name: "Second Generation (RG; 2012-2020) - International Markets"
     start_year: 2012
-    end_year: 2019
-    description: "While discontinued in North America after 2009, the TrailBlazer name continued in many international markets on a different vehicle based on the global Colorado pickup truck platform. This version maintained the traditional body-on-frame construction and was positioned as a rugged, capable SUV for markets where off-road performance and durability were prioritized over on-road refinement. Available primarily with diesel engines in most markets, it offered three rows of seating and significant ground clearance. This version was never sold in North America but was an important model for Chevrolet in regions such as Southeast Asia, Australia, South America, and parts of Africa."
+    end_year: 2020
+    description: "A newly redesigned TrailBlazer was introduced for the Asian and Brazilian markets, based on a truck frame (platform GMT31XX) related to the second-generation Chevrolet Colorado. This version maintained body-on-frame construction with three rows of seating and was positioned as a rugged SUV for markets prioritizing off-road performance. Engine options included a 3.6L V6 gasoline engine and 2.5L/2.8L turbocharged diesel engines. It was sold in Thailand (2012-2020), Brazil (2011-present at time of Wikipedia content), India, South Africa, and the Middle East. Marketed as the Holden Colorado 7 in Australia from 2012-2016, then as Holden Trailblazer from 2016-2020. Multiple facelifts occurred during this period."
 
-  - name: "Current Generation (as Trailblazer)"
+  - name: "Third Generation (9BXX; 2021-2023)"
     start_year: 2021
+    end_year: 2023
+    description: "A complete reimagining of the TrailBlazer nameplate as a subcompact crossover SUV built on GM's VSS-F platform with unibody construction. Significantly smaller than predecessors, it features front-wheel drive architecture with available all-wheel drive. Powertrain options include a 1.2L turbocharged three-cylinder producing 102 kW (137 HP) or a 1.3L turbocharged three-cylinder producing 115.5 kW (155 HP), paired with CVT (FWD) or nine-speed automatic (AWD). Available trim levels: L, LS, LT, ACTIV, and RS. Design features bold styling with available two-tone roof options. The interior includes a 7-inch or optional 8-inch touchscreen with wireless Apple CarPlay and Android Auto. Manufactured in South Korea and China."
+
+  - name: "Third Generation (9BXX; 2024+) - Facelifted"
+    start_year: 2024
     end_year: null
-    description: "The current Trailblazer (with lowercase 'b') represents a complete reimagining of the nameplate as a subcompact crossover SUV, significantly smaller than its predecessors. Built on GM's VSS-F platform with unibody construction, it features a front-wheel drive-based architecture with available all-wheel drive. Powertrain options include a 1.2L turbocharged three-cylinder engine with 137 HP or a 1.3L turbocharged three-cylinder producing 155 HP, paired with either a CVT or nine-speed automatic transmission depending on configuration. The exterior design features bold styling with available two-tone roof options and distinctive trim packages including the off-road-inspired ACTIV and sporty RS. The interior offers modern technology including a standard 7-inch (optional 8-inch) touchscreen with wireless Apple CarPlay and Android Auto compatibility. This generation positions the Trailblazer as a stylish, technology-focused small crossover targeting younger buyers, representing the dramatic shift in market preferences from the rugged, truck-based SUVs that previously carried the name."
+    description: "The Trailblazer received a facelift in February 2024 for the 2024 model year. Changes include a new front fascia with curvier design, new front bumper, new running lights, new LED taillights, new exterior colors, and new wheel designs. The interior received a larger 11-inch touchscreen infotainment system with wireless Apple CarPlay and Android Auto and an 8.8-inch digital instrument cluster. Powertrain options remain 1.2L and 1.3L turbocharged three-cylinder engines. The platform (VSS-F) and overall design remain essentially unchanged from the 2021-2023 generation."
