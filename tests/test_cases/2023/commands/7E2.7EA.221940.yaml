@@ -4,5 +4,5 @@ test_cases:
     CHEVROLET_ATF_T: 48
   response: 7EA0462194058
 - expected_values:
-    CHEVROLET_ATF_T: 83
-  response: 7EA046219407B
+    CHEVROLET_ATF_T: 84
+  response: 7EA046219407C
