@@ -1,0 +1,11 @@
+command_id: 7E0.2211A1|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_RUNTM: 0
+  response: 7E8056211A10000
+- expected_values:
+    TRAILBLAZER_RUNTM: 1022
+  response: 7E8056211A103FE
+- expected_values:
+    TRAILBLAZER_RUNTM: 2386
+  response: 7E8056211A10952

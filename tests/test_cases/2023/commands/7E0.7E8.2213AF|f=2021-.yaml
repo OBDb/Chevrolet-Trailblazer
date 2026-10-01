@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213AF|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_MOTOR_CMD: 0
+  response: 7E8046213AF00
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_MOTOR_CMD: 56.47059
+  response: 7E8046213AF90

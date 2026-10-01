@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.221207
+command_id: 7E0.7E8.221207|f=2021-
 test_cases:
 - expected_values:
-    CHEVROLET_MISFIRES_C3_CUR: 0
+    TRAILBLAZER_MISFIRES_C3_CUR: 0
   response: '7E80462120700'
 - expected_values:
-    CHEVROLET_MISFIRES_C3_CUR: 1
+    TRAILBLAZER_MISFIRES_C3_CUR: 1
   response: '7E80462120701'

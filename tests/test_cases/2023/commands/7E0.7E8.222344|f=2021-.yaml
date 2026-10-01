@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.222344
+command_id: 7E0.7E8.222344|f=2021-
 test_cases:
 - expected_values:
-    CHEVROLET_EOP_ABS: 96
+    TRAILBLAZER_EOP_ABS: 96
   response: '7E80462234418'
 - expected_values:
-    CHEVROLET_EOP_ABS: 476
+    TRAILBLAZER_EOP_ABS: 476
   response: '7E80462234477'
