@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.22000D
+command_id: 7E0.7E8.22000D|f=2021-
 test_cases:
 - expected_values:
-    CHEVROLET_VSS: 0
+    TRAILBLAZER_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    CHEVROLET_VSS: 65
+    TRAILBLAZER_VSS: 65
   response: 7E80462000D41
