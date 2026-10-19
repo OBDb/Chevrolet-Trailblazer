@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222344|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_EOP_ABS: 300
+  response: 7E8046223444B

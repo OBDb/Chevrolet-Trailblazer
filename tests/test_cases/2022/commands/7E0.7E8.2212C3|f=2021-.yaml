@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2212C3|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_INJECTOR_DUTY_CYCLE_BANK_1: 4.035
+  response: 7E8056212C3010D
