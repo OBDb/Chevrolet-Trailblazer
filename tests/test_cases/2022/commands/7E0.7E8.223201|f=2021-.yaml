@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.223201|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_CURRENT_GEAR_VAR_3: 6
+  response: '7E80462320106'
+- expected_values:
+    TRAILBLAZER_CURRENT_GEAR_VAR_3: 7
+  response: '7E80462320107'

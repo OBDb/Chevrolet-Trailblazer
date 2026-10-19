@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22005E|fc=1,f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_FUEL_RATE: 2.25
+  response: 7E80562005E002D
+- expected_values:
+    TRAILBLAZER_FUEL_RATE: 3.05
+  response: 7E80562005E003D
+- expected_values:
+    TRAILBLAZER_FUEL_RATE: 14.75
+  response: 7E80562005E0127

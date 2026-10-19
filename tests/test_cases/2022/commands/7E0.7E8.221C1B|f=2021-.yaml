@@ -1,5 +1,23 @@
 command_id: 7E0.7E8.221C1B|f=2021-
 test_cases:
 - expected_values:
+    TRAILBLAZER_EOP_CALC: 148
+  response: 7E804621C1B25
+- expected_values:
+    TRAILBLAZER_EOP_CALC: 152
+  response: 7E804621C1B26
+- expected_values:
+    TRAILBLAZER_EOP_CALC: 156
+  response: 7E804621C1B27
+- expected_values:
+    TRAILBLAZER_EOP_CALC: 172
+  response: 7E804621C1B2B
+- expected_values:
+    TRAILBLAZER_EOP_CALC: 196
+  response: 7E804621C1B31
+- expected_values:
     TRAILBLAZER_EOP_CALC: 200
   response: 7E804621C1B32
+- expected_values:
+    TRAILBLAZER_EOP_CALC: 256
+  response: 7E804621C1B40

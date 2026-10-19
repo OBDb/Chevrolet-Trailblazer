@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TRAILBLAZER_ATF_T: 83
   response: 7EA046219407B
+- expected_values:
+    TRAILBLAZER_ATF_T: 86
+  response: 7EA046219407E
+- expected_values:
+    TRAILBLAZER_ATF_T: 87
+  response: 7EA046219407F

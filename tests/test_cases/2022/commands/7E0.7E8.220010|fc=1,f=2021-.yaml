@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220010|fc=1,f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_MAF: 3.52
+  response: '7E8056200100160'
+- expected_values:
+    TRAILBLAZER_MAF: 6.87
+  response: 7E80562001002AF
+- expected_values:
+    TRAILBLAZER_MAF: 32.19
+  response: 7E8056200100C93

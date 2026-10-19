@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221144|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.06
+  response: '7E80462114435'
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.12
+  response: '7E80462114438'
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.16
+  response: 7E8046211443A
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.2
+  response: 7E8046211443C
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.22
+  response: 7E8046211443D
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.4
+  response: '7E80462114446'
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.52
+  response: 7E8046211444C
+- expected_values:
+    TRAILBLAZER_CABIN_AC_HIGH_SIDE_V: 1.76
+  response: '7E80462114458'

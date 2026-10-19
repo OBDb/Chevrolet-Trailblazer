@@ -1,5 +1,32 @@
 command_id: 7E0.7E8.223812|f=2021-
 test_cases:
 - expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 0
+  response: '7E80462381200'
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 1.96078
+  response: '7E80462381205'
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 3.13725
+  response: '7E80462381208'
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 3.92157
+  response: 7E8046238120A
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 4.70588
+  response: 7E8046238120C
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 6.66667
+  response: '7E80462381211'
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 7.84314
+  response: '7E80462381214'
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 10.98039
+  response: 7E8046238121C
+- expected_values:
+    TRAILBLAZER_COOLING_FAN_CMD: 14.90196
+  response: '7E80462381226'
+- expected_values:
     TRAILBLAZER_COOLING_FAN_CMD: 25.09804
   response: '7E80462381240'

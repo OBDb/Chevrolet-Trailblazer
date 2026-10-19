@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220042|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.647
+  response: '7E8056200423167'
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.659
+  response: '7E8056200423173'
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.667
+  response: 7E805620042317B
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.686
+  response: 7E805620042318E
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.688
+  response: '7E8056200423190'
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.706
+  response: 7E80562004231A2
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.735
+  response: 7E80562004231BF
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.749
+  response: 7E80562004231CD
+- expected_values:
+    TRAILBLAZER_M_CTRL_MODULE_V: 12.76
+  response: 7E80562004231D8

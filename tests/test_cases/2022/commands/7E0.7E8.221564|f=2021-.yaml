@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221564|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 84.84
+  response: 7E8046215642A
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 90.9
+  response: 7E8046215642D
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 92.92
+  response: 7E8046215642E
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 96.96
+  response: '7E80462156430'
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 101
+  response: '7E80462156432'
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 103.02
+  response: '7E80462156433'
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 135.34
+  response: '7E80462156443'
+- expected_values:
+    TRAILBLAZER_AC_HIGH_SIDE_P: 171.7
+  response: '7E80462156455'
