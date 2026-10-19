@@ -1,5 +1,32 @@
 command_id: 7E0.7E8.222345|f=2021-
 test_cases:
 - expected_values:
+    TRAILBLAZER_EOP: 148
+  response: '7E80462234525'
+- expected_values:
+    TRAILBLAZER_EOP: 152
+  response: '7E80462234526'
+- expected_values:
+    TRAILBLAZER_EOP: 160
+  response: '7E80462234528'
+- expected_values:
+    TRAILBLAZER_EOP: 172
+  response: 7E8046223452B
+- expected_values:
     TRAILBLAZER_EOP: 180
   response: 7E8046223452D
+- expected_values:
+    TRAILBLAZER_EOP: 184
+  response: 7E8046223452E
+- expected_values:
+    TRAILBLAZER_EOP: 192
+  response: '7E80462234530'
+- expected_values:
+    TRAILBLAZER_EOP: 196
+  response: '7E80462234531'
+- expected_values:
+    TRAILBLAZER_EOP: 308
+  response: 7E8046223454D
+- expected_values:
+    TRAILBLAZER_EOP: 320
+  response: '7E80462234550'

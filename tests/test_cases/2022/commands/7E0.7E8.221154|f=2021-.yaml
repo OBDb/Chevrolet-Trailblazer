@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TRAILBLAZER_EOT_CALC: 97
   response: '7E80462115489'
+- expected_values:
+    TRAILBLAZER_EOT_CALC: 98
+  response: 7E8046211548A
+- expected_values:
+    TRAILBLAZER_EOT_CALC: 99
+  response: 7E8046211548B

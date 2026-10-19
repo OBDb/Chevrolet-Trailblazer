@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.221941|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_TRANS_ISS: 4041.75
+  response: 7EA056219413F27
+- expected_values:
+    TRAILBLAZER_TRANS_ISS: 4413
+  response: 7EA0562194144F4

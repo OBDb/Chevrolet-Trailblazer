@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22239B|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_ACTIVE_GRILLE_COLD_T: 136
+  response: 7E80462239B88
+- expected_values:
+    TRAILBLAZER_ACTIVE_GRILLE_COLD_T: 152
+  response: 7E80462239B98

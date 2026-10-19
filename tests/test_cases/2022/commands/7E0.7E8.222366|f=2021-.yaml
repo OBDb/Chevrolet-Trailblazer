@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222366|f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_ACTIVE_GRILLE_SHUTTER_POS: 0
+  response: '7E80462236600'
+- expected_values:
+    TRAILBLAZER_ACTIVE_GRILLE_SHUTTER_POS: 0.39216
+  response: '7E80462236601'
+- expected_values:
+    TRAILBLAZER_ACTIVE_GRILLE_SHUTTER_POS: 55.29412
+  response: 7E8046223668D

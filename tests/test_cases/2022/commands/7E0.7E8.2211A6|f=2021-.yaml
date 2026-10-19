@@ -1,5 +1,20 @@
 command_id: 7E0.7E8.2211A6|f=2021-
 test_cases:
 - expected_values:
+    TRAILBLAZER_KNOCK_RETARD: 0
+  response: 7E8046211A600
+- expected_values:
+    TRAILBLAZER_KNOCK_RETARD: 0.22
+  response: 7E8046211A601
+- expected_values:
+    TRAILBLAZER_KNOCK_RETARD: 3.3
+  response: 7E8046211A60F
+- expected_values:
+    TRAILBLAZER_KNOCK_RETARD: 5.06
+  response: 7E8046211A617
+- expected_values:
     TRAILBLAZER_KNOCK_RETARD: 11.44
   response: 7E8046211A634
+- expected_values:
+    TRAILBLAZER_KNOCK_RETARD: 11.66
+  response: 7E8046211A635

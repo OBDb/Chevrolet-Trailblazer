@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22153E|fc=1,f=2021-
+test_cases:
+- expected_values:
+    TRAILBLAZER_EOT_DA11: 107
+  response: 7E80462153E93
+- expected_values:
+    TRAILBLAZER_EOT_DA11: 110
+  response: 7E80462153E96
