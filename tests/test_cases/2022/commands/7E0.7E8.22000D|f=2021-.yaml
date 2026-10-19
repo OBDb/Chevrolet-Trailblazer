@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TRAILBLAZER_VSS: 129
   response: 7E80462000D81
+- expected_values:
+    TRAILBLAZER_VSS: null
+  response: 7E80462000DFF

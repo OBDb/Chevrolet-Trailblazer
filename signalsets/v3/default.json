@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E2", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "760", "rax": "768", "cmd": {"22": "4051"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "TRAILBLAZER_FL_WHL_SPD", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
@@ -67,7 +71,7 @@
   "signals": [
     {"id": "TRAILBLAZER_EGR_V", "path": "Engine", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Exhaust gas recirculation voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_EOT_CALC", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -115,11 +119,11 @@
   "signals": [
     {"id": "TRAILBLAZER_REMAINING_OIL_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Remaining oil life"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 56.1, "mul": 22, "div": 100, "unit": "degrees" }, "name": "Knock retard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_TOTAL_MISFIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Total misfire"}
   ]},
@@ -135,15 +139,15 @@
   "signals": [
     {"id": "TRAILBLAZER_MIS_HISTORY_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1205"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1205"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_MISFIRES_C2_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1206"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1206"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_MISFIRES_C1_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1207"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1207"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_MISFIRES_C3_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 3"}
   ]},
@@ -155,11 +159,11 @@
   "signals": [
     {"id": "TRAILBLAZER_KNOCK_SENS_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock sensor active counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C3"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C3"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_INJECTOR_DUTY_CYCLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 983.025, "mul": 150, "div": 10000, "unit": "milliseconds" }, "name": "Injector duty cycle bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12D9"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12D9"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_TOTAL_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 114.75, "mul": 45, "div": 100, "unit": "degrees" }, "name": "Total knock retard"}
   ]},
@@ -167,7 +171,7 @@
   "signals": [
     {"id": "TRAILBLAZER_MIL_CAUSE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "MIL cause"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_COOLING_FAN_MOTOR_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan motor command"}
   ]},
@@ -251,7 +255,7 @@
   "signals": [
     {"id": "TRAILBLAZER_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_EOP_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Calculated engine oil pressure"}
   ]},
@@ -279,11 +283,11 @@
   "signals": [
     {"id": "TRAILBLAZER_AIR_TEMP_AMBIENT_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2344"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2344"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_EOP_ABS", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil absolute pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2345"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2345"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -327,7 +331,7 @@
   "signals": [
     {"id": "TRAILBLAZER_AIRFILT_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Air filter life remaining"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3812"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3812"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_COOLING_FAN_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan command"}
   ]},
@@ -339,7 +343,7 @@
   "signals": [
     {"id": "TRAILBLAZER_FUEL_TANK_P", "path": "Fuel", "fmt": { "len": 16, "max": 1.96, "div": 33333.3333333333, "unit": "psi" }, "name": "Fuel tank pressure"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "1940"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "1940"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "TRAILBLAZER_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
