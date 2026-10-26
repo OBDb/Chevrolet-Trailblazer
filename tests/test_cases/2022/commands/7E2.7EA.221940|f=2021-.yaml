@@ -1,6 +1,15 @@
 command_id: 7E2.7EA.221940|f=2021-
 test_cases:
 - expected_values:
+    TRAILBLAZER_ATF_T: 76
+  response: 7EA0462194074
+- expected_values:
+    TRAILBLAZER_ATF_T: 77
+  response: 7EA0462194075
+- expected_values:
+    TRAILBLAZER_ATF_T: 78
+  response: 7EA0462194076
+- expected_values:
     TRAILBLAZER_ATF_T: 83
   response: 7EA046219407B
 - expected_values:
