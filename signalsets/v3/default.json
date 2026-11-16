@@ -277,7 +277,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "20E3"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "TRAILBLAZER_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: actual"}
+    {"id": "TRAILBLAZER_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: actual", "suggestedMetric": "boostPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "232C"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
